@@ -1,0 +1,7 @@
+data/
+__pycache__/
+.ipynb_checkpoints/
+quickstart.ipynb
+sample_submission.csv
+validation_results.csv
+*.zip
