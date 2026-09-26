@@ -5,7 +5,7 @@
 ## Воспроизведение
 
 1. Установить Python 3.11.0 и зависимости: `pip install -r requirements.txt`.
-2. Скачать [архив с данными задания](https://stepik.org/media/attachments/lesson/2589118/bot_detection_challenge.zip) и поместить папку `data/` с `train.csv`, `test.csv` и `events.csv.gz` в корень репозитория.
+2. Скачать [скачать архив по ссылке из условия задания](https://stepik.org/media/attachments/lesson/2589118/bot_detection_challenge.zip) и поместить папку `data/` с `train.csv`, `test.csv` и `events.csv.gz` в корень репозитория.
 3. Из корня репозитория открыть `solution.ipynb` и выполнить все ячейки по порядку (**Run All**). Ноутбук запишет `submission.csv`.
 
 Ноутбук импортирует официальную функцию `precision_at_recall` из предоставленного файлом задания [metric.py](metric.py). Случайное зерно — `42`; версии библиотек зафиксированы в [requirements.txt](requirements.txt).
